@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WhatsThatWeld</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #f8e1f4, #ffe9f9);
+      color: #2c2c2c;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    header {
+      max-width: 800px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      background: linear-gradient(to right, #ff8ab8, #fceaff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: #4a4a4a;
+    }
+
+    .cta-button {
+      background: #ff8ab8;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 8px 24px rgba(255, 138, 184, 0.3);
+      transition: all 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background: #ff6fa5;
+    }
+
+    .weld-image {
+      margin-top: 3rem;
+      max-width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WhatsThatWeld</h1>
+    <p>Your smart weld identifier. Paste an image of a weld or drawing symbol, and let us tell you what it is — fast, accurate, and beautifully simple.</p>
+    <button class="cta-button">Coming Soon</button>
+    <img class="weld-image" src="https://th.bing.com/th/id/R.e2a27c06830fd9b167449ef9f2f08583?rik=3BGa0mTGXt%2blwQ&riu=http%3a%2f%2fil4.picdn.net%2fshutterstock%2fvideos%2f8588248%2fthumb%2f1.jpg&ehk=CnGfxDYHII6p8r5aetD4X%2fJ5qoCpgO8BWCOlzGGSUbM%3d&risl=&pid=ImgRaw&r=0" alt="Person welding">
+  </header>
+</body>
+</html>
